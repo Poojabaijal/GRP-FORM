@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GKP FORM</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 30px; }
+    h2 { color: #007bff; }
+    label { font-weight: bold; }
+    section { border: 1px solid #ddd; padding: 20px; margin-bottom: 30px; border-radius: 10px; }
+  </style>
+</head>
+<body>
+<form id="gkpForm" method="POST" action="https://script.google.com/a/macros/tejoo.co.in/s/AKfycbziAUNeCyxswBDQYns1HJ1m85lgosag5Ds0iQ75aty-baPGViRZ1n5Bs3jU9Emqhw_lVg/exec">
+
+
+<h1>GKP FORM</h1>
+<form action="https://script.google.com/macros/s/AKfycbziAUNeCyxswBDQYns1HJ1m85lgosag5Ds0iQ75aty-baPGViRZ1n5Bs3jU9Emqhw_lVg/exec" method="post">
+  <label for="ownerName">Owner Name:</label>
+  <input type="text" name="ownerName" required><br><br>
+  
+  <label for="contact">Contact:</label>
+  <input type="text" name="contact" required><br><br>
+  
+    <!-- SECTION 1 -->
+  <section>
+    <h2>Section 1: Business Information</h2>
+
+    <label>Types of Women's Wear Stores in India:</label><br>
+    <input type="checkbox" name="storeType" value="Large Format Stores"> Large Format Stores (Chain Store)<br>
+    <input type="checkbox" name="storeType" value="Exclusive Brand Outlets"> Exclusive Brand Outlets (Single Brand Store)<br>
+    <input type="checkbox" name="storeType" value="Multi Brand Outlets"> Multi Brand Outlets (Multiple Category)<br>
+    <input type="checkbox" name="storeType" value="Local Boutique"> Local Boutique & Designer Store<br>
+    <input type="checkbox" name="storeType" value="Designer & Luxury Store"> Designer & Luxury Store (High End Store)<br>
+    <input type="checkbox" name="storeType" value="Street Market"> Street Market & Bazar (Budget Friendly)<br>
+    <input type="checkbox" name="storeType" value="Wholesale Store"> Wholesale Store (Bulk Buying & Reselling)<br><br>
+
+    <label>Which type of category customer desire:</label><br>
+    <table border="1" cellpadding="5">
+      <tr>
+        <th>Category</th>
+        <th>Price Range (Select One)</th>
+      </tr>
+      <tr>
+        <td>Readymade Formal (N,D,T)</td>
+        <td><input type="text" name="readymade1"></td>
+      </tr>
+      <tr>
+        <td>Readymade Formal (K,V)</td>
+        <td><input type="text" name="readymade2"></td>
+      </tr>
+      <tr>
+        <td>Readymade Brands (Catalogue - J)</td>
+        <td><input type="text" name="readymade3"></td>
+      </tr>
+      <tr>
+        <td>Casual Wear Brand (Un-Stitched Catalogue - I, E5)</td>
+        <td><input type="text" name="readymade4"></td>
+      </tr>
+      <tr>
+        <td>Casual Wear (A,B,C,E2,C1,R)</td>
+        <td><input type="text" name="readymade5"></td>
+      </tr>
+      <tr>
+        <td>Fancy Suit (E,G,H,F,Q)</td>
+        <td><input type="text" name="readymade6"></td>
+      </tr>
+      <tr>
+        <td>South Handloom (o)</td>
+        <td><input type="text" name="readymade7"></td>
+      </tr>
+      <tr>
+        <td>Lehanga (L,U)</td>
+        <td><input type="text" name="readymade8"></td>
+      </tr>
+      <tr>
+        <td>Saree (S)</td>
+        <td><input type="text" name="readymade9"></td>
+      </tr>
+    </table><br>
+
+    <label>Shop K liye Purchase Kaun Karta Hai:</label><br>
+    <input type="radio" name="purchaseBy" value="Owner"> Owner Khud Hi Karta Hai<br>
+    <input type="radio" name="purchaseBy" value="Staff"> Owner Staff Ko Bhejta Hai<br>
+    <input type="radio" name="purchaseBy" value="Direct Vendor"> Owner k Direct Relationship With Vendor<br>
+    <input type="radio" name="purchaseBy" value="Agent"> Agent / Purchaser Se Karwate Hai<br><br>
+
+    <label>Customer ka Consumer kis type ka hai?</label><br>
+    <input type="checkbox" name="consumerType" value="Online"> Online<br>
+    <input type="checkbox" name="consumerType" value="In-Store"> In-Store<br><br>
+
+    <label>Customer Year Me Kitni Baar "Sale" Lagata Hai:</label><br>
+    <input type="checkbox" name="saleType" value="Season End"> Season End Sale<br>
+    <input type="checkbox" name="saleType" value="Occasion"> Occasion Base<br>
+    <input type="checkbox" name="saleType" value="Inventory Clearance"> Inventory Clearance Sale<br>
+    <input type="checkbox" name="saleType" value="Footfall"> Customer Attraction (To Increase the footfall)<br><br>
+
+    <label>Is sale Ko Lagane Ke Liye Customer Humse Kitna % Purchase Karta Hai:</label><br>
+    <select name="purchasePercent">
+      <option value="10-30%">10%-30%</option>
+      <option value="31-50%">31%-50%</option>
+      <option value="51-80%">51%-80%</option>
+      <option value="81-100%">81%-100%</option>
+    </select><br><br>
+
+    <label>Customer Kitne Agencies Ke Sath Juda Hai?</label><br>
+    <input type="number" name="agencies"><br><br>
+
+    <label>Customer Readymade Category Delhi me Kis Market se Kharidari Karta Hai?</label><br>
+    <input type="checkbox" name="market" value="Gandhi Nagar"> Gandhi Nagar<br>
+    <input type="checkbox" name="market" value="Naraina"> Naraina<br>
+    <input type="checkbox" name="market" value="Lajpat Nagar"> Lajpat Nagar<br>
+    <input type="checkbox" name="market" value="Chandni Chowk"> Chandni Chowk<br><br>
+
+    <label>Kya customer Woolen sale karta hai?</label><br>
+    <input type="radio" name="woolenSale" value="Yes"> Yes<br>
+    <input type="radio" name="woolenSale" value="No"> No<br><br>
+
+    <label>Woolen kis type me karta hai?</label><br>
+    <input type="checkbox" name="woolenType" value="Readymade"> Readymade<br>
+    <input type="checkbox" name="woolenType" value="Unstitched"> Unstitched<br>
+    <input type="checkbox" name="woolenType" value="Both"> Both<br><br>
+
+    <label>Top Festivals jinke time pe sabse zyada business hota hai:</label><br>
+    <input type="checkbox" name="festivals" value="Eid"> Eid<br>
+    <input type="checkbox" name="festivals" value="Diwali"> Diwali<br>
+    <input type="checkbox" name="festivals" value="Wedding Season"> Wedding Season<br>
+    <input type="checkbox" name="festivals" value="Navratri"> Navratri / Durga Puja<br>
+    <input type="checkbox" name="festivals" value="Lohri"> Makar Sankranti / Lohri / Pongal<br>
+    <input type="checkbox" name="festivals" value="Karwa Chauth"> Karwa Chauth<br>
+    <input type="checkbox" name="festivals" value="Teej"> Teej<br>
+    <input type="checkbox" name="festivals" value="Raksha Bandhan"> Raksha Bandhan<br><br>
+
+    <!-- You can continue other Section 1 fields similarly... -->
+
+  </section>
+
+  <!-- SECTION 2 -->
+  <section>
+    <h2>Section 2: Shop Owner Information</h2>
+
+    <label>Shop Owner Name / Nick Name:</label><br>
+    <input type="text" name="ownerName"><br><br>
+
+    <label>Owner Daily Kis Time Aata Hai:</label><br>
+    <input type="time" name="ownerStartTime"><br><br>
+
+    <label>Owner Kis Time Tak Shop Par Rahta Hai:</label><br>
+    <input type="time" name="ownerEndTime"><br><br>
+
+    <label>Contact Information (WhatsApp No):</label><br>
+    <input type="tel" name="contact"><br><br>
+
+    <label>Preferred Communication Mode:</label><br>
+    <input type="checkbox" name="commMode" value="Call"> Call<br>
+    <input type="checkbox" name="commMode" value="WhatsApp"> WhatsApp<br>
+    <input type="checkbox" name="commMode" value="In-Person"> In-Person<br>
+    <input type="checkbox" name="commMode" value="Email"> Email<br><br>
+
+    <label>Shop zyada active hoti hai kis festival mein?</label><br>
+    <input type="checkbox" name="activeFestival" value="Diwali"> Diwali<br>
+    <input type="checkbox" name="activeFestival" value="Eid"> Eid<br>
+    <input type="checkbox" name="activeFestival" value="Teej"> Teej<br><br>
+
+    <label>Customer kab tour par jata hai:</label><br>
+    <input type="checkbox" name="tourTime" value="Summer"> Summer Vacation<br>
+    <input type="checkbox" name="tourTime" value="Winter"> Winter Vacation<br>
+    <input type="checkbox" name="tourTime" value="Off-Season"> Off Season<br><br>
+
+    <label>Customer kin ke sath tour par jata hai:</label><br>
+    <input type="checkbox" name="tourGroup" value="Solo"> Solo<br>
+    <input type="checkbox" name="tourGroup" value="Family"> Family<br>
+    <input type="checkbox" name="tourGroup" value="Friends"> Friends<br><br>
+
+    <label>Jab customer bahar jata hai to shop ke bharose par chhodta hai:</label><br>
+    <input type="radio" name="shopResponsibility" value="Staff"> Staff ke bharose<br>
+    <input type="radio" name="shopResponsibility" value="Family"> Family Member<br>
+    <input type="radio" name="shopResponsibility" value="Other"> Other<br><br>
+
+    <label>Kaunse Bhagwan ya Devi Devta main zyada vishwas rakhte hai?</label><br>
+    <input type="text" name="faith"><br><br>
+
+    <label>Language Preference:</label><br>
+    <select name="languagePref">
+      <option>Hindi</option>
+      <option>Haryanvi</option>
+      <option>Marwari</option>
+      <option>Urdu</option>
+      <option>English</option>
+      <option>Tamil</option>
+    </select><br><br>
+
+    <label>Khud kaha se shopping karte hai:</label><br>
+    <input type="checkbox" name="shoppingPlace" value="Mall"> Mall<br>
+    <input type="checkbox" name="shoppingPlace" value="Market"> Market<br>
+    <input type="checkbox" name="shoppingPlace" value="Local Vendor"> Local Vendor<br><br>
+
+    <label>Lucky No & Lucky Day:</label><br>
+    <input type="text" name="luckyInfo"><br><br>
+
+    <label>Customer Tejoo Fashion ke bare me kya feedback deta hai?</label><br>
+    <textarea name="feedback" rows="4" cols="50"></textarea><br><br>
+
+    <label>Customer ka Tejoo Fashion se kya desire hai?</label><br>
+    <textarea name="desire" rows="4" cols="50"></textarea><br><br>
+
+  </section>
+
+  <input type="submit" value="Submit Form">
+
+</https://script.google.com/a/macros/tejoo.co.in/s/AKfycbziAUNeCyxswBDQYns1HJ1m85lgosag5Ds0iQ75aty-baPGViRZ1n5Bs3jU9Emqhw_lVg/exec>
+
+</body>
+</html>
+    <label>Kaunse Bhagwan ya Devi-Devta mein zyada vishwas hai?</label><br>
+    <input type="text" name="faith"><br><br>
+
+    <label>Kya customer kisi Guru ya Dharmik Sanstha se jude hue hain?</label><br>
+    <input type="text" name="spiritualConnection"><br><br>
+
+    <label>Owner ka Birthday:</label><br>
+    <input type="date" name="birthday"><br><br>
+
+    <label>Owner ka Wedding Anniversary:</label><br>
+    <input type="date" name="anniversary"><br><br>
+
+    <label>Hobby / Interest:</label><br>
+    <input type="checkbox" name="hobby" value="Travel"> Travel<br>
+    <input type="checkbox" name="hobby" value="Music"> Music<br>
+    <input type="checkbox" name="hobby" value="Shopping"> Shopping<br>
+    <input type="checkbox" name="hobby" value="Reading"> Reading<br>
+    <input type="checkbox" name="hobby" value="Cooking"> Cooking<br><br>
+
+    <label>Customer Ko sabse zyada pasand kya hai:</label><br>
+    <input type="text" name="likes"><br><br>
+
+    <label>Customer Ko sabse zyada nafrat kis cheez se hai:</label><br>
+    <input type="text" name="dislikes"><br><br>
+
+    <label>Customer ke sabse kareeb kaun hai (Emotionally)?</label><br>
+    <input type="text" name="closePerson"><br><br>
+
+    <label>Customer ke sabse kareeb staff kaun hai (Shop Staff)?</label><br>
+    <input type="text" name="closeStaff"><br><br>
+
+    <label>Customer kis se darta hai?</label><br>
+    <input type="text" name="fears"><br><br>
+
+    <label>Customer ko impress karne ka best way kya hai?</label><br>
+    <input type="text" name="impressWay"><br><br>
+
+    <label>Kya customer kisi politician, social group, ya club se judaa hua hai?</label><br>
+    <input type="text" name="associations"><br><br>
+
+    <label>Customer ka favorite color, actor, cricketer, ya movie kya hai?</label><br>
+    <input type="text" name="favorites"><br><br>
+
+    <label>Customer jab dukhi hota hai to kis tarah behave karta hai?</label><br>
+    <input type="text" name="sadBehavior"><br><br>
+
+    <label>Customer jab khush hota hai to kis tarah behave karta hai?</label><br>
+    <input type="text" name="happyBehavior"><br><br>
+
+    <label>Customer jab gussa hota hai to kis tarah behave karta hai?</label><br>
+    <input type="text" name="angryBehavior"><br><br>
+
+    <label>Kya customer kisi aur business me bhi hai?</label><br>
+    <input type="text" name="otherBusiness"><br><br>
+
+    <label>Customer ke sapne kya hai?</label><br>
+    <textarea name="dreams" rows="3" cols="40"></textarea><br><br>
+
+    <label>Customer ne ab tak kitni property kharidi hai ya banai hai?</label><br>
+    <input type="text" name="propertyDetails"><br><br>
+
+    <label>Customer apne bachchon ke liye kya sapna rakhta hai?</label><br>
+    <textarea name="childrenDreams" rows="3" cols="40"></textarea><br><br>
+
+    <label>Kya customer kisi challenge ya mushkil samay se guzra hai (jaise lockdown me ya personal)?</label><br>
+    <textarea name="challenges" rows="3" cols="40"></textarea><br><br>
+
+    <label>Customer kis type ke logo se inspire hota hai?</label><br>
+    <input type="text" name="inspiration"><br><br>
+
+    <label>Customer ne aakhri baar kis cheez se impress hua tha kisi brand ya vyakti se?</label><br>
+    <input type="text" name="lastImpression"><br><br>
+
+    <label>Customer ke khud ke principles ya beliefs kya hai?</label><br>
+    <textarea name="principles" rows="3" cols="40"></textarea><br><br>
+
+    <label>Extra Notes:</label><br>
+    <textarea name="extraNotes" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit Form" style="padding: 10px 20px; font-size: 16px;">
+  </section>
+
+</https://script.google.com/a/macros/tejoo.co.in/s/AKfycbziAUNeCyxswBDQYns1HJ1m85lgosag5Ds0iQ75aty-baPGViRZ1n5Bs3jU9Emqhw_lVg/exec>
+
+<!-- Add other fields if needed -->
+  
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
